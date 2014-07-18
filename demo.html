@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<script src='src/vendor/jquery-1.9.1.js' type='text/javascript'></script>
+<script src='src/vendor/jquery-ui-1.10.3.custom.js' type='text/javascript'></script>
+<script src='src/jquery.toolteep.js' type='text/javascript'></script>
+<link href='src/main.css' rel='stylesheet' type='text/css'/>
+
+<body style='padding-right: 3000px'>
+    <div class='container' style='width: 500px; margin-left: 300px;'>
+        <div style='height: 300px;'></div>
+        <div style='float: left' title='whatever whatever whatever' data-toolteep>t1</div>
+        <div style='float: right' title='whatever whatever whatever' data-toolteep='{"position": "top", "max-width": "500px", "speed": 200}'>t2</div>
+        <div style='height: 300px;'></div>
+        <div style='clear: both'>
+            <div style='float: left' title='whatever whatever whatever whatever&lt;br/>sldfk slkjdf lksdj lkfj slkj lkfsdl jkf lsjfsdkl' data-toolteep='{"position": "bottom", "max-width": "50px", "speed": 500}'>t3 sldfkj sldfj klsdj fkl</div>
+            <div style='float: right' title='whatever whatever whatever' data-toolteep='{"position": "bottom", "max-width": "50px", "speed": 500}'>t4</div>
+        </div>
+        <div style='height: 3000px;'></div>
+    </div>
+
+    <script type='text/javascript'>
+        $(document).on('ready', function() {
+            $('#x').toolteep({'position': 'bottom'});
+        });
+    </script>
+</body>
