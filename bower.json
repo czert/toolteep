@@ -1,0 +1,12 @@
+{
+  "name": "toolteep",
+  "version": "0.0.1",
+  "main": [
+    "src/main.css",
+    "src/jquery.toolteep.js"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
